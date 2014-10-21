@@ -1,0 +1,20 @@
+/*
+ Color Face
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/*
+ Add color to main map
+- - - - - - - - - - - - - - - - - - - - - */
+
+$app-paint-colors: app-helper-add-map($app-paint-color);
+
+
+/*
+ Start
+- - - - - - - - - - - - - - - - - - - - - */
+
+body.#{app-paint-color-name()} {
+  background: app-paint-by-property(body, background);
+  @import "../app/all.brush";
+}

@@ -1,0 +1,20 @@
+/*
+ Paint Modules
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+@function app-paint-color-name() {
+  @return map-get($app-paint-color, name);
+}
+
+@function app-paint-color-exists($color) {
+  @return map-has-key($app-paint-colors, $color);
+}
+
+@function app-paint-by-property($category, $property) {
+  @return map-get(map-get(map-get($app-paint-color, property), $category), $property);
+}
+
+@function app-paint-by-tone($palette, $tone) {
+  @return map-get(map-get(map-get($app-paint-color, palette), $palette), $tone);
+}

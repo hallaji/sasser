@@ -1,0 +1,20 @@
+/*
+ Device Map
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-media-device: (
+
+  name: 'handheld',
+  type: 'device',
+
+  min-width: 0,
+  max-width: 767
+
+);
+
+
+/*
+ Device Face
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../../faces/device";

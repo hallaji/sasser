@@ -1,0 +1,19 @@
+/*
+ Device Face
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/*
+ Add color to main map
+- - - - - - - - - - - - - - - - - - - - - */
+
+$app-media-devices: app-helper-add-map($app-media-device);
+
+
+/*
+ Start
+- - - - - - - - - - - - - - - - - - - - - */
+
+body.#{app-media-device-name()} {
+  @import "../app/all.device";
+}

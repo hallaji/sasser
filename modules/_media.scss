@@ -1,0 +1,43 @@
+/*
+ Media Modules
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+@function app-media-device-name() {
+  @return map-get($app-media-device, name);
+}
+
+@function app-media-device-exists($device) {
+  @return map-has-key($app-media-devices, $device);
+}
+
+@function app-media-by-property($device, $property) {
+  $device-map: map-get($app-media-devices, $device);
+  @return map-get($device-map, $property);
+}
+
+@mixin app-media-device-feature-set($device, $limit: false) {
+
+  @if app-media-device-exists($device) {
+    @if $limit == min {
+      @media only screen
+        and (min-width: app-media-by-property($device, min-width) + px) {
+          @content;
+      }
+    }
+    @else if $limit == max {
+      @media only screen
+        and (max-width: app-media-by-property($device, max-width) + px) {
+          @content;
+      }
+    }
+    @else {
+      @media only screen
+        and (min-width: app-media-by-property($device, min-width) + px)
+        and (max-width: app-media-by-property($device, max-width) + px) {
+          @content;
+      }
+    }
+  }
+
+}

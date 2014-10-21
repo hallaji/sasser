@@ -1,0 +1,21 @@
+/*
+ Font Face
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/*
+ Add color to main map
+- - - - - - - - - - - - - - - - - - - - - */
+
+$app-typography-fonts: app-helper-add-map($app-typography-font);
+
+
+/*
+ Start
+- - - - - - - - - - - - - - - - - - - - - */
+
+@font-face {
+  font-family: app-typography-font-name();
+  src: url('#{app-typography-font-filepath()}.woff') format('woff');
+  font-weight: app-typography-font-weight();
+}

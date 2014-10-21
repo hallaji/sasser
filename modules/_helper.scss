@@ -1,0 +1,30 @@
+/*
+ Helper Modules
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+@function app-helper-map-name($map) {
+  @return map-get($map, name);
+}
+
+@function app-helper-map-type($map) {
+  @return map-get($map, type);
+}
+
+@function app-helper-add-map($map) {
+
+  $type: app-helper-map-type($map);
+  $maps: null;
+
+  @if $type == 'color' {
+    $maps: $app-paint-colors;
+  } @else if $type == 'device' {
+    $maps: $app-media-devices;
+  } @else if $type == 'font' {
+    $maps: $app-typography-fonts;
+  }
+
+  $new-map: ( #{app-helper-map-name($map)}: $map );
+
+  @return map-merge($maps, $new-map);
+}

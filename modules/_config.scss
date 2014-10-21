@@ -1,0 +1,45 @@
+/*
+ Config
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/*
+ App
+- - - - - - - - - - - - - - - - - - - - - */
+$app-min-width: 300px;
+$app-max-width: 1600px;
+
+
+/*
+ Side Bar
+- - - - - - - - - - - - - - - - - - - - - */
+$app-sidebar-width: 20rem;
+$app-sidebar-width-handheld: 7rem;
+$app-sidebar-button-height: 4.5rem;
+
+
+/*
+ Tool Bar
+- - - - - - - - - - - - - - - - - - - - - */
+$app-toolbar-height: 6rem;
+$app-toolbar-button-width: 6.8rem;
+$app-toolbar-button-width-handheld: 6.2rem;
+
+
+/*
+ Menu Bar
+- - - - - - - - - - - - - - - - - - - - - */
+$app-menubar-height: 4.8rem;
+$app-menubar-button-padding: 0 1.8rem;
+
+
+/*
+ Search Bar
+- - - - - - - - - - - - - - - - - - - - - */
+$app-searchbar-height-handheld: 5.2rem;
+
+
+/*
+ Breadcrumb
+- - - - - - - - - - - - - - - - - - - - - */
+$app-breadcrumb-height: 5.2rem;
+$app-breadcrumb-margin: 0 0 1rem;

@@ -1,0 +1,38 @@
+/*
+ Color Map
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-paint-color: (
+
+  name: 'slategray',
+  type: 'color',
+
+  palette: (
+    gray: (
+      base:   rgb(42,40,80),
+      light:  rgb(51,46,140),
+      dark:   rgb(40,38,65)
+    )
+  ),
+
+  property: (
+    body: (
+      background: #ffffff
+    ),
+    app: (
+      text-color: #333333
+    ),
+    side-bar: (
+      background: #354052,
+      text-color: #a0acbf
+    )
+  )
+
+);
+
+
+/*
+ Color Face
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../../faces/color";

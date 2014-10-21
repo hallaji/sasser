@@ -1,0 +1,20 @@
+﻿/*!
+ * - - - - - - - - - - - - - - - - - - - - - - - - -
+ * @author Vahid Hallaji <vahid@hallaji.com>
+ * @copyright Copyright (c) 2005-2014, Vahid Hallaji
+ * @link (http://hallaji.com)
+ * - - - - - - - - - - - - - - - - - - - - - - - - -
+ */
+
+
+/*
+ App Direction
+- - - - - - - - - - - - - - - - - - - - - */
+$app-direction: ltr;
+
+/*
+ Basic Imports
+- - - - - - - - - - - - - - - - - - - - - */
+@import "vendor/all";
+@import "vendor/all.ltr";
+@import 'main';

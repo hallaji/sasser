@@ -1,0 +1,54 @@
+/*
+ Font Map
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-typography-font: (
+
+  name: 'ubuntu',
+  type: 'font',
+
+  stack: 'ubuntu, tahoma',
+  weight: 'normal',
+  filepath: '../fonts/ubuntu/ubuntu-regular',
+  direction: ltr,
+  inverted-direction-callback: 'yekan',
+
+  size:(
+    x-small: (
+      font-size: 1.2,
+      line-height: 1.2
+    ),
+    small: (
+      font-size: 1.3,
+      line-height: 1.3
+    ),
+    base: (
+      font-size: 1.5,
+      line-height: 1.5
+    ),
+    medium: (
+      font-size: 1.7,
+      line-height: 1.7
+    ),
+    x-medium: (
+      font-size: 2.2,
+      line-height: 2.2
+    ),
+    large: (
+      font-size: 2.8,
+      line-height: 2.8
+    ),
+    x-large: (
+      font-size: 3.4,
+      line-height: 3.4
+    )
+  )
+
+);
+
+
+/*
+ Font Face
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../../faces/font";
