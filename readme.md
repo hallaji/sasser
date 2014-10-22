@@ -42,7 +42,7 @@ Add your own module to `modules` directory and import it inside `all.scss`
     
  * app-direction
     
-    * @function
+    * functions
     
         app-direction()
         app-direction-inverted()
@@ -56,7 +56,7 @@ Add your own module to `modules` directory and import it inside `all.scss`
         
  * app-helper
         
-    * @function
+    * functions
     
         app-helper-map-name($map)
         app-helper-map-type($map)
@@ -64,17 +64,17 @@ Add your own module to `modules` directory and import it inside `all.scss`
         
 * app-typography
         
-    * @function
+    * functions
     
         app-typography-font-exists($font-name)
         
-    * @mixin
+    * mixin
     
         app-typography-font-scale-set($font-name, $size: base, $callback-font: false)
         
  * app-utility
 
-    * @mixin
+    * mixin
         
         app-utility-clearfix-set()
         app-utility-vendorize-set($property, $value)
@@ -82,18 +82,18 @@ Add your own module to `modules` directory and import it inside `all.scss`
         
 * app-media
         
-    * @function
+    * functions
         
         app-media-device-exists($device)
         app-media-by-property($device, $property)
         
-    * @mixin    
+    * mixin    
         
         app-media-device-feature-set($device, $limit: false)
         
  * app-paint
 
-    * @function
+    * functions
    
         app-paint-color-exists($color)
         app-paint-by-property($category, $property)
