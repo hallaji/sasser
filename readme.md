@@ -1,4 +1,4 @@
-# Sasser
+# Sasser (Draft Version)
 
 A micro sass framework let you to write once, make both ltr and rtl directions 
 instantly, paint your app or website as a brush and lighten the typography.
@@ -14,16 +14,21 @@ instantly, paint your app or website as a brush and lighten the typography.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ## Quick Start
-
-### Install
+ 
+ 1. 
+ 2. 
+ 3. 
 
 ## Features
 
+ * Use sass maps structure
  * Support both ltr and rtl directions
  * Media query
  * Add color, font, device simply
 
 ## Documentation
+
+Add your own module to `modules` directory and import it inside `all.scss`
 
  * Index
     

@@ -1,7 +1,7 @@
 /*
- Direction Modules
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+ * Direction
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @function app-direction() {
   @if $app-direction == ltr {
@@ -40,37 +40,5 @@
     @return $top $end $bottom $start;
   } @else {
     @return $top $start $bottom $end;
-  }
-}
-
-@function app-align-start() {
-  @if $app-direction == ltr {
-    @return left;
-  } @else {
-    @return right;
-  }
-}
-
-@function app-align-end() {
-  @if $app-direction == ltr {
-    @return right;
-  } @else {
-    @return left;
-  }
-}
-
-@function app-align-start-inverted() {
-  @if $app-direction == ltr {
-    @return right;
-  } @else {
-    @return left;
-  }
-}
-
-@function app-align-end-inverted() {
-  @if $app-direction == ltr {
-    @return left;
-  } @else {
-    @return right;
   }
 }

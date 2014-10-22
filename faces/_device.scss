@@ -1,18 +1,17 @@
 /*
- Device Face
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+ * Device Face
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /*
- Add color to main map
-- - - - - - - - - - - - - - - - - - - - - */
+ * Add device to main map
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 $app-media-devices: app-helper-add-map($app-media-device);
 
-
 /*
- Start
-- - - - - - - - - - - - - - - - - - - - - */
+ * Start the face
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 body.#{app-media-device-name()} {
   @import "../app/all.device";

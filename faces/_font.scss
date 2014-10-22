@@ -1,18 +1,17 @@
 /*
- Font Face
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+ * Font Face
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /*
- Add color to main map
-- - - - - - - - - - - - - - - - - - - - - */
+ * Add font to main map
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 $app-typography-fonts: app-helper-add-map($app-typography-font);
 
-
 /*
- Start
-- - - - - - - - - - - - - - - - - - - - - */
+ * Start the face
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @font-face {
   font-family: app-typography-font-name();

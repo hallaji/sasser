@@ -1,7 +1,7 @@
 /*
- Helper Modules
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+ * Helper
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @function app-helper-map-name($map) {
   @return map-get($map, name);
@@ -24,7 +24,7 @@
     $maps: $app-typography-fonts;
   }
 
-  $new-map: ( #{app-helper-map-name($map)}: $map );
+  $new-map: (#{app-helper-map-name($map)}: $map);
 
   @return map-merge($maps, $new-map);
 }

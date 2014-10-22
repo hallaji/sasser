@@ -1,7 +1,7 @@
 /*
- Typography Modules
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+ * Typography
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @function app-typography-font-name() {
   @return map-get($app-typography-font, name);

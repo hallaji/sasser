@@ -1,6 +1,6 @@
 /*
- Font Map
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+ | Font Map
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 $app-typography-font: (
 
@@ -9,7 +9,7 @@ $app-typography-font: (
 
   stack: 'ubuntu, tahoma',
   weight: 'normal',
-  filepath: '../fonts/ubuntu/ubuntu-regular',
+  filepath: '../fonts/ubuntu/ubuntu-regular', // relative url to generated css file.
   direction: ltr,
   inverted-direction-callback: 'yekan',
 
@@ -46,9 +46,8 @@ $app-typography-font: (
 
 );
 
-
 /*
- Font Face
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+ | Font Face
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @import "../../faces/font";

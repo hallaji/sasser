@@ -1,0 +1,29 @@
+﻿/*
+ * Main SASS
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/*
+ * Modules
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../modules/all";
+
+/*
+ * Assets (Fonts and Devices)
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../assets/fonts/all";
+@import "../assets/devices/all";
+
+/*
+ * App Related (Partials, Layouts, Views, etc...)
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../app/all";
+
+/*
+ * Assets (Colors)
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../assets/colors/all";

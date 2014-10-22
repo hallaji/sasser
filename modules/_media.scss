@@ -1,7 +1,7 @@
 /*
- Media Modules
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+ *  Media Modules
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @function app-media-device-name() {
   @return map-get($app-media-device, name);

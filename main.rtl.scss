@@ -1,20 +1,22 @@
 ﻿/*!
- * - - - - - - - - - - - - - - - - - - - - - - - - -
+ * - - - - - - - - - - - - - - - - - - - - - - - - - -
  * @author Vahid Hallaji <vahid@hallaji.com>
- * @copyright Copyright (c) 2005-2014, Vahid Hallaji
+ * @license The MIT License (MIT)
+ * @copyright Copyright (C) 2005-2014, Vahid Hallaji
  * @link (http://hallaji.com)
- * - - - - - - - - - - - - - - - - - - - - - - - - -
+ * - - - - - - - - - - - - - - - - - - - - - - - - - -
  */
 
-
 /*
- App Direction
-- - - - - - - - - - - - - - - - - - - - - */
+ * App Direction
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 $app-direction: rtl;
 
 /*
- Basic Imports
-- - - - - - - - - - - - - - - - - - - - - */
+ * Basic Imports
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 @import "vendor/all";
 @import "vendor/all.rtl";
-@import 'main';
+@import 'faces/main';
