@@ -4,13 +4,13 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /*
- * Add device to main map
+ | Add device to main map
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 $app-media-devices: app-helper-add-map($app-media-device);
 
 /*
- * Start the face
+ | Start the face
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 body.#{app-media-device-name()} {

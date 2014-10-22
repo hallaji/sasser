@@ -4,13 +4,13 @@
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /*
- * Add font to main map
+ | Add font to main map
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 $app-typography-fonts: app-helper-add-map($app-typography-font);
 
 /*
- * Start the face
+ | Start the face
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @font-face {
