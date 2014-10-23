@@ -1,16 +1,7 @@
 /*
  * All Devices
  *
- * - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-/*
- | Devices main map
- * - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-$app-media-devices: ();
-
-/*
- | Import your devices here
+ * Import all of your devices that want to use it
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @import "handheld";
