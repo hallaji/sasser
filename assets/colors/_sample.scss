@@ -4,14 +4,14 @@
 
 $app-paint-color: (
 
-  name: 'slategray',
+  name: 'sample',
   type: 'color',
 
   palette: (
     gray: (
-      base:   rgb(42,40,80),
-      light:  rgb(51,46,140),
-      dark:   rgb(40,38,65)
+      light:  rgb(192, 192, 192),
+      base:   rgb(128, 128, 128),
+      dark:   rgb(64, 64, 64)
     )
   ),
 
@@ -21,10 +21,6 @@ $app-paint-color: (
     ),
     app: (
       text-color: #333333
-    ),
-    side-bar: (
-      background: #354052,
-      text-color: #a0acbf
     )
   )
 
