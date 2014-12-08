@@ -3,30 +3,32 @@
 A micro sass framework let you to write once, make both LTR and RTL directions 
 instantly, paint your app or website as a brush and lighten the typography.
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
 
- * Author — [Vahid Hallaji](http://hallaji.com) , <vahid@hallaji.com>
- * License — The MIT License (MIT)
- * Stable Version — No release
- * Unstable Version — v1.0-dev
+* Author — [Vahid Hallaji](http://hallaji.com) , <vahid@hallaji.com>
+* License — [The MIT License (MIT)](LICENSE)
+* Copyright — (c) 2014 Vahid Hallaji
+* Stable Version — No release
+* Unstable Version — v1.0-dev
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
+
 ## Quick Start
  
- 1. Clone the source to your project sass directorty.
- 2. Add preferred
- 3. 
+ 1. Clone the source to your project sass directory.
+ 2. 
+ 3.
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
 
 ## Features
 
-- Use sass maps structure.
+* Use sass maps structure.
 * Support both ltr and rtl directions.
 * Media query
 * Add a color, font and device simply.
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
 
 ## Documentation
 
@@ -34,7 +36,6 @@ Add your own module to `modules` directory and import it inside `all.scss`
 
 ### Prefixes
     
-
 ```sass
 app-direction-
 app-align-
@@ -45,7 +46,6 @@ app-helper-
 app-media-
 ```
 
-    
 ### Directions
 
 * `app-direction()`
@@ -62,7 +62,6 @@ app-align-start-inverted()
 app-align-end-inverted()
 ```
 
-        
 ### Helpers
 
 ```sass
@@ -70,7 +69,6 @@ app-helper-map-name($map)
  app-helper-map-type($map)
 app-helper-add-map($map)
 ```
-
 
 ### Typography
 
@@ -82,7 +80,6 @@ app-typography-font-exists($font-name)
 app-typography-font-scale-set($font-name, $size: base, $callback-font: false)
 ```
 
-
 ### Utilities
 
 ```sass
@@ -90,7 +87,6 @@ app-utility-clearfix-set()
 app-utility-vendorize-set($property, $value)
 app-utility-offscreen-set()
 ```
-
 
 ### Media
 
@@ -111,12 +107,7 @@ app-paint-by-property($category, $property)
 app-paint-by-tone($palette, $tone)
 ```
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---
+
 ## Contributing
-
 Anyone and everyone is welcome to contribute.
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-## License
-
-The Sasser is an open-source software licensed under the MIT license
