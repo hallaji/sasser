@@ -1,13 +1,13 @@
 # Sasser
 
-A micro sass framework let you to write once, make both LTR and RTL directions 
+A micro sass framework let you to write the code once, make both LTR and RTL directions 
 instantly, paint your app or website as a brush and lighten the typography.
 
 * Author — [Vahid Hallaji](http://hallaji.com) , <vahid@hallaji.com>
 * License — The MIT License (MIT)
-* Copyright — (c) 2014 Vahid Hallaji
-* Stable Version — No release [master]
-* Unstable Version — v1.0-dev [develop]
+* Copyright — (c) 2015 Vahid Hallaji
+* Stable Version — No release (master)
+* Unstable Version — v1.0-dev (develop)
 
 ## Quick Start
  
@@ -17,10 +17,13 @@ instantly, paint your app or website as a brush and lighten the typography.
 
 ## Features
 
-* Use sass maps structure.
-* Support both ltr and rtl directions.
+* Uses sass maps structure.
+* Makes both LTR and RTL directions.
+* Paints your app as a brush
+* Assets like colors, fonts and devices can be added anytime and simply.
 * Media query
-* Add a color, font and device simply.
+* MVC frameworks
+* Separates color and device based styles from main style sheets.
 
 ## Documentation
 

@@ -15,5 +15,5 @@ $app-paint-colors: app-helper-add-map($app-paint-color);
 
 body.#{app-paint-color-name()} {
   background: app-paint-by-property(body, background);
-  @import "../app/all.brush";
+  @import "../views/all.brush";
 }

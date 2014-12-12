@@ -14,5 +14,5 @@ $app-media-devices: app-helper-add-map($app-media-device);
  * - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 body.#{app-media-device-name()} {
-  @import "../app/all.device";
+  @import "../views/all.device";
 }
