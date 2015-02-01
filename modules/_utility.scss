@@ -16,7 +16,6 @@
 }
 
 @mixin app-utility-vendorize-set($property, $value) {
-  $value: unquote($value);
   -webkit-#{$property}: $value;
   -moz-#{$property}: $value;
   -ms-#{$property}: $value;
