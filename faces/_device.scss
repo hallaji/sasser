@@ -1,0 +1,18 @@
+/*
+ * Device Face
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/*
+ | Add device to main map
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-media-devices: app-helper-add-map($app-media-device);
+
+/*
+ | Start the face
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+body.#{app-media-device-name()} {
+  @import "../views/all.device";
+}

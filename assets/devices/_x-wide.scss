@@ -1,0 +1,19 @@
+/*
+ | Device Map
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-media-device: (
+
+  name: 'x-wide',
+  type: 'device',
+
+  min-width: 1601,
+  max-width: 9999
+
+);
+
+/*
+ | Device Face
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../../faces/device";

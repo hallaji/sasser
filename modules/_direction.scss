@@ -1,0 +1,44 @@
+/*
+ * Direction
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@function app-direction() {
+  @if $app-direction == ltr {
+    @return ltr;
+  } @else {
+    @return rtl;
+  }
+}
+
+@function app-direction-inverted() {
+  @if $app-direction == ltr {
+    @return rtl;
+  } @else {
+    @return ltr;
+  }
+}
+
+@function app-direction-is-ltr() {
+  @if $app-direction == ltr {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@function app-direction-is-rtl() {
+  @if $app-direction == rtl {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@function app-direction-values($top, $end, $bottom, $start) {
+  @if $app-direction == ltr {
+    @return $top $end $bottom $start;
+  } @else {
+    @return $top $start $bottom $end;
+  }
+}

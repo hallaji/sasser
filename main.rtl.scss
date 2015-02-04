@@ -1,0 +1,22 @@
+﻿/*!
+ * - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * @author Vahid Hallaji <vahid@hallaji.com>
+ * @license The MIT License (MIT)
+ * @copyright (C) 2005-2015, Vahid Hallaji
+ * @link (http://hallaji.com)
+ * - - - - - - - - - - - - - - - - - - - - - - - - - -
+ */
+
+/*
+ | App Direction
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-direction: rtl;
+
+/*
+ | Basic Imports
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "vendor/all";
+@import "vendor/all.rtl";
+@import 'faces/main';

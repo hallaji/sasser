@@ -1,0 +1,51 @@
+/*
+ * Typography
+ *
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@function app-typography-font-name() {
+  @return map-get($app-typography-font, name);
+}
+
+@function app-typography-font-filepath() {
+  @return map-get($app-typography-font, filepath);
+}
+
+@function app-typography-font-weight() {
+  @return map-get($app-typography-font, weight);
+}
+
+@function app-typography-font-exists($font-name) {
+  @return map-has-key($app-typography-fonts, $font-name);
+}
+
+@mixin app-typography-font-scale-set($font-name, $size: base, $callback-font: false) {
+
+  @if app-typography-font-exists($font-name) {
+
+    $font-map: map-get($app-typography-fonts, $font-name);
+
+    @if $callback-font == default and
+        map-has-key($font-map, direction) and
+        map-has-key($font-map, inverted-direction-callback) and
+        map-get($font-map, direction) != app-direction() and
+        app-typography-font-exists(map-get($font-map, inverted-direction-callback)) {
+          $font-map: map-get($app-typography-fonts, map-get($font-map, inverted-direction-callback));
+    }
+    @else if $callback-font != false and
+      map-get($font-map, direction) != app-direction() and
+      app-typography-font-exists($callback-font) {
+        $font-map: map-get($app-typography-fonts, $callback-font);
+    }
+
+    $size-map: map-get($font-map, size);
+
+    font-family: unquote(map-get($font-map, stack));
+    //font-size: map-get(map-get($size-map, $size), font-size) * 10px;
+    font-size: map-get(map-get($size-map, $size), font-size) * 1rem;
+    line-height: map-get(map-get($size-map, $size), line-height);
+    @content;
+
+  }
+
+}

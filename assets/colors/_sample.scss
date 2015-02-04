@@ -1,0 +1,33 @@
+/*
+ | Color Map
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+$app-paint-color: (
+
+  name: 'sample',
+  type: 'color',
+
+  palette: (
+    gray: (
+      light:  rgb(192, 192, 192),
+      base:   rgb(128, 128, 128),
+      dark:   rgb(64, 64, 64)
+    )
+  ),
+
+  property: (
+    body: (
+      background: #ffffff
+    ),
+    app: (
+      text-color: #333333
+    )
+  )
+
+);
+
+/*
+ | Color Face
+ * - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@import "../../faces/color";
