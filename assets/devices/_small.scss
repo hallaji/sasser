@@ -4,11 +4,11 @@
 
 $app-media-device: (
 
-  name: 'medium',
+  name: 'small',
   type: 'device',
 
-  min-width: 992,
-  max-width: 1199
+  min-width: 768,
+  max-width: 991
 
 );
 
