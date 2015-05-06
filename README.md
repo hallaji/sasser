@@ -2,8 +2,7 @@
 
 The micro sass framework lets you code once, generate both LTR and RTL directions instantly, paint your app as a brush and lighten the typography.
 
-* Stable Version — v0.9
-* Unstable Version — v1.0-dev
+* Version (Unstable) — v0.9.0
 
 ## Features
 
