@@ -1,0 +1,27 @@
+{
+  "name": "Sasser",
+  "version": "0.9",
+  "authors": [
+    "Vahid Hallaji <vahid@hallaji.com> (http://hallaji.com)"
+  ],
+  "description": "The micro sass framework let you code once, generate both LTR and RTL directions instantly, paint your app as a brush and lighten the typography.",
+  "keywords": [
+    "sass",
+    "framework",
+    "web",
+    "front-end"
+  ],
+  "license": "MIT",
+  "homepage": "http://hallaji.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hallaji/sasser.git"
+  }
+}
