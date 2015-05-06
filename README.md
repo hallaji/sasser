@@ -51,7 +51,7 @@ app-helper-
 app-media-
 ```
 
-#### Directions
+#### Directions `app-direction-`
 
 ```
 app-direction()
@@ -59,28 +59,25 @@ app-direction-inverted()
 app-direction-is-ltr()
 app-direction-is-rtl()
 app-direction-values($top, $end, $bottom, $start)
+```
+
+#### Aligns `app-align-`
+
+```
 app-align-start()
 app-align-end()
 app-align-start-inverted()
 app-align-end-inverted()
 ```
 
-#### Helpers
-
-```
-app-helper-map-name($map)
-app-helper-map-type($map)
-app-helper-add-map($map)
-```
-
-#### Typography
+#### Typography `app-typography-`
 
 ```
 app-typography-font-exists($font-name)
 app-typography-font-scale-set($font-name, $size: base, $callback-font: false)
 ```
 
-#### Utilities
+#### Utilities `app-utility-`
 
 ```
 app-utility-clearfix-set()
@@ -88,7 +85,7 @@ app-utility-vendorize-set($property, $value)
 app-utility-offscreen-set()
 ```
 
-#### Media
+#### Media `app-media-`
 
 ```
 app-media-device-exists($device)
@@ -96,12 +93,20 @@ app-media-by-property($device, $property)
 app-media-device-feature-set($device, $limit: false)
 ```
 
-#### Paint
+#### Paint `app-paint-`
 
 ```
 app-paint-color-exists($color)
 app-paint-by-property($category, $property)
 app-paint-by-tone($palette, $tone)
+```
+
+#### Helpers `app-helper-`
+
+```
+app-helper-map-name($map)
+app-helper-map-type($map)
+app-helper-add-map($map)
 ```
 
 ## Author
